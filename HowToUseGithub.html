@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HowToUseGithub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="https://github.com/">Github</a></li>
+        <li style="float:right"><a class="active" href="https://docs.github.com/en">More Guide</a></li>
+    </ul>
+    <div class="card">
+        
+        <div class="container">
+        
+        <p>
+            <h3>
+                New to git? Follow the steps below to get comfortable making changes to the code base, opening up a pull request (PR), and merging code into the primary branch.  
+            </h3>
+        </p>
+        <p>
+            <h4>Step 0:</h4> Install git and create a GitHub account
+        </p>
+        <p>
+            <h4>Step 1:</h4> Create a local git repository 
+            When creating a new project on your local machine using git, you'll first create a new repository (or often, 'repo', for short). To use git we'll be using the terminal. If you don't have much experience with the terminal and basic commands, check out this tutorial (If you don’t want/ need a short history lesson, skip to step three.) To begin, open up a terminal and move to where you want to place the project on your local machine using the cd (change directory) command. 
+            
+        </p>
+        <p>
+            <h4>Step 2:</h4> Add a new file to the repo
+            Go ahead and add a new file to the project, using any text editor you like or running a touch command. Commits make up the essence of your project and allow you to jump to the state of a project at any other commit.
+            
+        </p>
+        <p>
+            <h4>Step 3:</h4> Add a file to the staging environment
+            Add a file to the staging environment using the git add command. 
+        </p>
+        <p><h4>Step 4:</h4> Create a commit
+            It's time to create your first commit!
+            Run the command git commit -m "Your message about the commit"
+            
+        </p>
+        <p>
+            <h4>Step 5:</h4> Create a new branch
+            Now that you've made a new commit, let's try something a little more advanced.
+            Say you want to make a new feature but are worried about making changes to the main project while developing the feature. This is where git branches come in.        </p>
+        <p>
+            <h4>Step 6:</h4> Create a new repository on GitHub
+            If you only want to keep track of your code locally, you don't need to use GitHub. But if you want to work with a team, you can use GitHub to collaboratively modify the project's code. To create a new repo on GitHub, log in and go to the GitHub home page. You can find the “New repository” option under the “+” sign next to your profile picture, in the top right corner of the navbar.
+            After clicking the button, GitHub will ask you to name your repo and provide a brief description:
+            When you're done filling out the information, press the 'Create repository' button to make your new repo.
+        </p>
+        <p>
+            <h4>Step 7:</h4> Push a branch to GitHub
+            To push changes onto a new branch on GitHub, you'll want to run git push origin yourbranchname. GitHub will automatically create the branch for you on the remote repository.
+            Now click the green button in the screenshot above. We're going to make a pull request!
+        </p>
+        <p>
+            <h4>Step 8:</h4> Create a pull request (PR)
+            A pull request (or PR) is a way to alert a repo's owners that you want to make some changes to their code. It allows them to review the code and make sure it looks good before putting your changes on the primary branch.
+        </p>
+        <p>
+            <h4>Step 9:</h4> Merge a PR
+            Go ahead and click the green 'Merge pull request' button. This will merge your changes into the primary branch.
+        </p>
+        <p>
+            <h4>Step 10:</h4> Get changes on GitHub back to your computer
+            In order to get the most recent changes that you or others have merged on GitHub, use the git pull origin master command (when working on the primary branch). In most cases, this can be shortened to “git pull”.
+        </p>
+        <p>
+            <h4>Step 11:</h4> Bask in your git glory
+            You've successfully made a PR and merged your code to the primary branch. Congratulations! 
+        </p>
+        </div>
+    </div>
+</body>
+</html>
